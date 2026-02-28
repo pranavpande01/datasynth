@@ -1,0 +1,61 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.h5
+*.db
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment variables file
+.env
+
+# Distrib packages
+build/
+dist/
+*.egg-info/
+
+# pyinstaller
+*.manifest
+*.spec
+
+# mypy
+data
+.mypy_cache/
+
+# coverage
+htmlcov/
+.coverage
+
+# pytest
+.cache/
+
+# local settings
+local_settings.py
+
+# ignore gitignore itself
+!.gitignore
